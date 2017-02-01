@@ -16,19 +16,22 @@ serverRoutes.route('/api/search')
   marketController.getLocationMarkets(req, res);
 });
 
-
-  /////////////////////////////////
- // dress up with passport later
-//// and new routes
 serverRoutes.route('/api/login')
 .post((req, res) => {
   adminController.login(req, res);
 });
 
-serverRoutes.route('/api/signup')
-.post((req, res) => {
+  /////////////////////////////////
+ // dress up with passport later
+//// and new routes
+serverRoutes.route('/login')
 
-});
+serverRoutes.route('/signup')
+.post(passport.authenticate('local-signup', {
+  successRedirect: '/profile',
+  failureRedirect: '/signup',
+  failureFlash: true
+}));
 
 serverRoutes.route('/profile')
 .get(isLoggedIn, (req, res) => {
@@ -41,8 +44,8 @@ serverRoutes.route('/logout')
   res.redirect('/');
 });
 
-/////////////////////////////////
-////////////////////////////////
+// end of new passport routes //
+///////////////////////////////
 
 serverRoutes.route('/api/create')
 .post(/* [,some middleware] */ (req, res) => {

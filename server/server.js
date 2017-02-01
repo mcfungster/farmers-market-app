@@ -1,7 +1,10 @@
 var express    = require('express');
 var mongoose   = require('mongoose');
-var passport   = require('passport');
 var flash      = require('connect-flash');
+
+// configure passport
+var passport = require('passport');
+require('./config/passport')(passport);
 
 var morgan       = require('morgan');
 var path         = require('path');
@@ -18,8 +21,6 @@ var routes  = require('./routes/routes.js');
 var mongoURI = process.env.mongoURI || keys.mongoURI;
 mongoose.connect(mongoURI);
 
-// configure passport
-// require('./config/passport')(passport);
 
 
 var app = express();
@@ -32,7 +33,11 @@ app.use(bodyParser.json());
 
 
 // passport
-app.use(session({secret: keys.secret}));
+app.use(session({
+  secret: keys.secret,
+  resave: false,
+  saveUninitialized: false
+}));
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
