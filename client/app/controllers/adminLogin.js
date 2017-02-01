@@ -11,7 +11,8 @@ angular.module('farmer.login', ['farmer.adminServices'])
     .then((token) => {
       // save the token that the server sends back in localStorage
       $window.localStorage.setItem('token', token);
-      $location.path('/adminUpdate');
+      // $location.path('/adminUpdate'); // breaking this for now
+      $location.path('/map');          // changed for normal users 
     })
     .catch((err) => {
       console.error(err);

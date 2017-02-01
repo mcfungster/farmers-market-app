@@ -16,10 +16,33 @@ serverRoutes.route('/api/search')
   marketController.getLocationMarkets(req, res);
 });
 
+
+  /////////////////////////////////
+ // dress up with passport later
+//// and new routes
 serverRoutes.route('/api/login')
 .post((req, res) => {
   adminController.login(req, res);
 });
+
+serverRoutes.route('/api/signup')
+.post((req, res) => {
+
+});
+
+serverRoutes.route('/profile')
+.get(isLoggedIn, (req, res) => {
+
+});
+
+serverRoutes.route('/logout')
+.get((req,res) => {
+  req.logout(); // this method is provided by passport!
+  res.redirect('/');
+});
+
+/////////////////////////////////
+////////////////////////////////
 
 serverRoutes.route('/api/create')
 .post(/* [,some middleware] */ (req, res) => {
@@ -47,10 +70,18 @@ serverRoutes.route('/api/delete')
 	marketController.delete(req,res);
 });
 
-
 serverRoutes.route('/api/add')
 .put((req,res)=>{
 	marketController.addMarket(req,res);
 });
+
+
+
+function isLoggedIn(req, res, next) {
+  if (req.isAuthenticated()) return next();
+  res.redirect('/');
+};
+
+
 
 module.exports = serverRoutes;
