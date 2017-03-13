@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>City Sprouts</title>
+    <!-- Angular Material Stylesheet -->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans:300,400,600" rel="stylesheet">
+    <!-- Angular Material Icons Stylesheet -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/angular-xeditable/0.6.0/css/xeditable.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
+</head>
 
-  </head>
-
-  <body ng-app="farmer">
+<body ng-app="farmer">
 
     <div ng-view style="height: 100%"></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-sanitize.js"></script>
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-aria.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-messages.min.js"></script>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTezgN5FsgQl8-ClHNmZLNPQa9OrrhP3A&libraries=places"></script>
 
-    <!-- Angular Material Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-xeditable/0.6.0/js/xeditable.min.js"></script>
+    <!-- Angular Material Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
-    <!-- <script src="app/services.js"></script> -->
     <script src="app/controllers/search.js"></script>
-    <script src="app/map.js"></script>
-    <script src="app/app.js"></script>
+    <script src="app/controllers/map.js"></script>
+    <script src="app/controllers/user.js"></script>
     <script src="app/controllers/adminUpdate.js"></script>
     <script src="app/controllers/adminLogin.js"></script>
-    <script src="app/adminServices.js"></script>
-    <script src="app/services.js"></script>
-    <script async defer src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTezgN5FsgQl8-ClHNmZLNPQa9OrrhP3A&libraries=places"></script>
 
-  </body>
+    <script src="app/services/adminServices.js"></script>
+    <script src="app/services/userServices.js"></script>
+    <script src="app/services/services.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/controllers/accordianController.js"></script>
+
+</body>
 
 </html>

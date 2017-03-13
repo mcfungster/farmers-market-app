@@ -1,7 +1,9 @@
 <div class="search-container">
+  <!-- Logo -->
   <header class="logo">
     <h1>City Sprouts</h1>
   </header>
+  <!-- Search Display -->
   <main class="search-display">
     <div class="search-header">Enter your location to find a farmers market near you</div>
       <form ng-submit="submit()" name="searchForm">
@@ -10,7 +12,7 @@
           <md-input-container flex="80">
             <!-- <label>Address</label> -->
             <md-icon class="material-icons md-48"> search </md-icon>
-            <input id="searchTextField" type="text" ng-model="address">
+            <input id="searchTextField" type="text" ng-model="address" aria-label="searchLabel">
           </md-input-container>
 
           <md-input-container flex="20">
@@ -26,12 +28,21 @@
 
   </main>
   <footer class="md-padding footer">
-    <div>
-      Made with <span><md-icon class="material-icons md-light"> favorite </md-icon></span> by Array Like Alligators
+    <div class="adminbutton" ng-hide="user" layout="row" layout-align="center">
+      <md-button ng-click="redirectToLogin();" class="md-raised md-primary ">User Login</md-button>
+      <md-button ng-click="redirectToSignup();" class="md-raised md-primary ">User Signup</md-button>
     </div>
-    <!-- Need a button here for admin to go to login page -->
-    <div class="adminbutton" layout="row" layout-align="center">
-      <md-button ng-click="redirectToLogin();" class="md-raised md-primary ">Admin Login</md-button>
+    <div class="adminbutton" ng-show="user" layout="row" layout-align="center">
+      <md-button ng-click="redirectToProfile();" class="md-raised md-primary ">Your Profile</md-button>
+      <md-button ng-click="logout();" class="md-raised md-primary ">Logout</md-button>
+    </div>
+    <div align="center">
+      <div>Want to contribute?</div>
+      <div>Check us out at
+        <a target="_blank" href="http://www.github.com/sprout-folks/farmers-market-app">
+        <img src="assets\GitHub-Mark-Light-120px-plus.png"  style="height:1.5em;" /> </a>
+      </div>
+
     </div>
   </footer>
 </div>

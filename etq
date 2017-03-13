@@ -1,0 +1,1802 @@
+[33mcommit 18505185547ccced76b380d61d95fa388b2eeae6[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Sat Feb 4 11:43:53 2017 -0500
+
+    user auth implemented, rating: somewhat hacky
+
+[33mcommit d3ecdb09b724ab5a6e4e7eba8b09405469722e69[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Sat Feb 4 10:52:02 2017 -0500
+
+    persistent auth mostly working
+
+[33mcommit 4cb677ca729c9ff8d608d74ba09945a2b5121757[m
+Merge: cff3054 7ca66dc
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Sat Feb 4 10:49:40 2017 -0500
+
+    Merge pull request #29 from rjmohammad/dev
+    
+    Implemented Twilio client to send messages, and did bootstrap styling on accordion.
+
+[33mcommit 7ca66dcccd4ff0c5ec7ba208164581e3dbbf5fc5[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 10:41:02 2017 -0500
+
+    more fixes
+
+[33mcommit 200a6f1f335b3036c6f9debd5ffa1ffcf4139f46[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 10:40:27 2017 -0500
+
+    more styling
+
+[33mcommit 5db24c073edefe80f6c44dfbba192807ea512b8b[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 10:33:28 2017 -0500
+
+    fixed styling
+
+[33mcommit bbecb47d52cbf38551dd8fb19577bcb1705b8e51[m
+Merge: ee43c66 30ff409
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 10:17:53 2017 -0500
+
+    Merge branch 'styling' into dev
+
+[33mcommit 30ff409b4d17e45d61713842b543dce2931caf82[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 10:17:00 2017 -0500
+
+    small changes
+
+[33mcommit c83e81f618e7c2684c03793f5a3c59d4f1bed973[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 02:01:43 2017 -0500
+
+    made changes to products array for more chips
+
+[33mcommit d0371f10a3530e8cfd22cf2ec2a5c14f25461aee[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 01:41:04 2017 -0500
+
+    fixed prod list error
+    made filtering by products functional, using bootstrap accordion
+
+[33mcommit c8865966de14fda157a171ee64cef4a520e4fbae[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 01:31:16 2017 -0500
+
+    fixing twilio
+
+[33mcommit ee43c66924b73344d8dc6e68f8d782d561af4ab4[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 01:16:42 2017 -0500
+
+    fixed a minor issue with md-ripple
+
+[33mcommit 00d9f21ebd37d1e4f773834d4e6707150b59f1a9[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Sat Feb 4 01:15:02 2017 -0500
+
+    styling
+
+[33mcommit 65a27b0973f92dcb3dc3a73a53a0bb11a89097c9[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 20:14:17 2017 -0500
+
+    make the frontend send messages to user
+
+[33mcommit ba8c37f54834dd767920ac6e08c8db995048f838[m
+Merge: 2491666 3e72d1f
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 16:40:26 2017 -0500
+
+    Merge branch 'dev' into layout
+
+[33mcommit 3e72d1f33a6a883dcac4c294c6dec57429148c2c[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 10:43:27 2017 -0500
+
+    made more itming adjustments
+
+[33mcommit 614d7376c4d630f8fc0c6deddc6fcd00547fb6ad[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 10:42:09 2017 -0500
+
+    fixed timeing issues
+
+[33mcommit 2491666d8bd80c91c176d4e20ce40ebb2abf4227[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 16:39:43 2017 -0500
+
+    making pop up
+
+[33mcommit cff3054283ffd80d6ce2e3fde82ef549db10ed8a[m
+Merge: c47fc1a 62bc614
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Fri Feb 3 16:06:07 2017 -0500
+
+    Merge pull request #25 from mcfungster/dev
+    
+    front-end linked to back-end AUTH
+
+[33mcommit 62bc61466e5ad9b11ba09433d8097a5af6939e86[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Fri Feb 3 16:03:58 2017 -0500
+
+    front-end linked to back-end AUTH
+
+[33mcommit 5498e50bf1049c0839e5766bb53b02b3254c09b6[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 15:48:27 2017 -0500
+
+    fixed tags
+
+[33mcommit 96f63a02096390251a226a099af41081ccecca64[m
+Merge: bba9425 03cbdfe
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 15:45:59 2017 -0500
+
+    Merge branch 'dev' into layout
+
+[33mcommit 03cbdfe1d036b9241074a00af87f8b801d7a3c1e[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 10:43:27 2017 -0500
+
+    made more itming adjustments
+
+[33mcommit 03fa8db9d608a0e1bb5a0b8a1231987a0ed41c8c[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 10:42:09 2017 -0500
+
+    fixed timeing issues
+
+[33mcommit c47fc1a58d329205b99e9aa79266db426409eb46[m
+Merge: 349831b 2f2a64c
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Fri Feb 3 15:40:50 2017 -0500
+
+    Merge pull request #24 from peterschussheim/dev
+    
+    add label to comment input
+
+[33mcommit 2f2a64ca84e793b4390902592b89c3a95c50042f[m
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Fri Feb 3 15:36:21 2017 -0500
+
+    add label to comment input
+
+[33mcommit bba9425cc17c33a4a01959f2b671928a8c0bdb47[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 10:43:27 2017 -0500
+
+    made more itming adjustments
+
+[33mcommit 7bb3fc3f85f47d4ef4e93b157e23fd39621920d4[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Fri Feb 3 10:42:09 2017 -0500
+
+    fixed timeing issues
+
+[33mcommit 349831b4ffff08cdce810a7e202bd2e4b580b5ec[m
+Merge: 3eb2654 a4d7f25
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Fri Feb 3 14:16:40 2017 -0500
+
+    Merge pull request #23 from peterschussheim/dev
+    
+    fix comment submit button
+
+[33mcommit a4d7f253832b8152964d494554e1e4e8a3238da4[m
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Fri Feb 3 14:14:20 2017 -0500
+
+    fix comment submit button
+
+[33mcommit 3eb2654629e7ad26acfae134d6f8e56563334d5f[m
+Merge: 270f06f a1c4ead
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Fri Feb 3 13:48:04 2017 -0500
+
+    Merge pull request #22 from peterschussheim/dev
+    
+    Dev
+
+[33mcommit a1c4ead52215d75e29d46fb3f4de45adb397d725[m
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Fri Feb 3 13:45:34 2017 -0500
+
+    accordian opens and closes by clicking on market name
+
+[33mcommit 4d897312f0a1bc1923e02a767c1f9cf31c42596b[m
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Fri Feb 3 10:12:50 2017 -0500
+
+    remove old code from map template
+
+[33mcommit 093d362e5691d04a51a1f7d9ffa167b7dc9aa061[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 19:58:48 2017 -0500
+
+    fixing merge conflict?
+
+[33mcommit 41f8f669dc0bb07f3f5182ab435cbea047f19cb0[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 17:03:36 2017 -0500
+
+    add user login page, not yet functional
+
+[33mcommit 7bc07c126a385a4766fdc3b7c4de6dcbe55a6e25[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 14:06:00 2017 -0500
+
+    minor code cleanup
+
+[33mcommit 270f06f79bc413720653c6c3446054403c0714d6[m
+Merge: 8bbe599 7d01db8
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 19:59:56 2017 -0500
+
+    Merge pull request #21 from peterschussheim/dev
+    
+    accordion feature
+
+[33mcommit 7d01db8659155f76a19b51cfd3795afb2c2d640a[m
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Thu Feb 2 19:52:33 2017 -0500
+
+    add schedule, products and address to accordian
+
+[33mcommit 68c0658a1c56b6950957d5c6ef3b90fa29e87ea8[m
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Thu Feb 2 19:28:38 2017 -0500
+
+    accordian properly changes state
+
+[33mcommit 480a01fe6c56c4ddeac897cf6f69ab3104320f59[m
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Thu Feb 2 17:18:51 2017 -0500
+
+    add aria-label to search template
+
+[33mcommit 9d2c13124f241714c7e31021cfe937e0ca737a51[m
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Thu Feb 2 14:11:02 2017 -0500
+
+    add accordion controller
+
+[33mcommit 8bbe599dd17a29ff627eee3c46fb9e725db208bb[m
+Merge: 7b879cd 3f87be0
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 19:47:44 2017 -0500
+
+    Merge pull request #20 from rjmohammad/dev
+    
+    db caching + sms routes and scripts
+
+[33mcommit 3f87be09ba20f846286f1edf349e3fe7053590fb[m
+Merge: 3d0b6c8 d89a6eb
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 19:40:32 2017 -0500
+
+    Merge branch 'dev' of https://github.com/rjmohammad/farmers-market-app into dev
+
+[33mcommit 3d0b6c8d5f87de38935eea50b82a355b44287b7d[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 19:37:40 2017 -0500
+
+    fixed
+
+[33mcommit d89a6eb9a9900b8bc2a376af01f6410e766accc3[m
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 19:34:04 2017 -0500
+
+    Update fetchFarmersMarketData.js
+
+[33mcommit bd73b00ced31b935800509a6f9578f99f164a1c8[m
+Merge: c80201b 064227b
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 19:30:20 2017 -0500
+
+    done
+
+[33mcommit c80201b3898c40ec78c5a9410f9b98f7e904b65b[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 12:25:30 2017 -0500
+
+    working on refreshing db
+
+[33mcommit 6b099aeba470bfa94f5cd9af396fa7c15a924b82[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:33:03 2017 -0500
+
+    made twilio controller
+
+[33mcommit 07e15bb120072ed2ca3ea1ef440846666b566f84[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:12:51 2017 -0500
+
+    made basic twilio app
+
+[33mcommit 2e9570bfccf950f7115a8abde0500b1544964f7c[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:33:03 2017 -0500
+
+    made twilio controller
+
+[33mcommit 9bacffadf91b871ee179e341e638b0708bd67802[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:12:51 2017 -0500
+
+    made basic twilio app
+
+[33mcommit 33718db7609668c331a4d37ef3f825ff4cf3c7f2[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:56:37 2017 -0500
+
+    finished route for twilio
+
+[33mcommit ae704fbe94756d709a2fac69cb26851af2414dd1[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:33:03 2017 -0500
+
+    made twilio controller
+
+[33mcommit fe96042f6421cd0c783ad84717228f400c96255d[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:12:51 2017 -0500
+
+    made basic twilio app
+
+[33mcommit 8c43bdcb032f5e2faf2f5ca79e90f58e0d57d94b[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:33:03 2017 -0500
+
+    made twilio controller
+
+[33mcommit 18a2980a792a1105a4a243e41e5f8736f0bbeb86[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:12:51 2017 -0500
+
+    made basic twilio app
+
+[33mcommit 064227b1b34073eae4d72d1713b67c2ecd38c95a[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 19:28:44 2017 -0500
+
+    wrote refresh function
+    and scheduled to be run every 7 days
+
+[33mcommit 2bf436dce330f9329da56c2e464a10a72f3a89f4[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 13:11:29 2017 -0500
+
+    refactor model to save ids of market
+
+[33mcommit 63f2db3458636c8f8ba2b504ce6dd7b9b1f309fe[m
+Merge: 05a19fa 7a840e2
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 12:27:38 2017 -0500
+
+    done
+
+[33mcommit 05a19faed688a8ac5bebeace1aa44c09d4e3d394[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 12:25:30 2017 -0500
+
+    working on refreshing db
+
+[33mcommit 80231eac8ec3e20e1603a1bbfbb2551dc100964a[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:56:37 2017 -0500
+
+    finished route for twilio
+
+[33mcommit 9f98260d7be11351e8049d424fade5bf139e936f[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:33:03 2017 -0500
+
+    made twilio controller
+
+[33mcommit 98ecf3b70aba4cd5e76f2040df20b89268085e7b[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:12:51 2017 -0500
+
+    made basic twilio app
+
+[33mcommit b0508b548723b22cdbc8d7ece6b709fefd68bd7f[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:33:03 2017 -0500
+
+    made twilio controller
+
+[33mcommit ccdd3d6a161ff1ad8902a2c982f50183bcba08bd[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:12:51 2017 -0500
+
+    made basic twilio app
+
+[33mcommit 7b879cd8e891233914714fee7d3a3073b81131c1[m
+Merge: 785055b 28f08de
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 12:24:38 2017 -0500
+
+    Merge pull request #17 from mcfungster/dev
+    
+    user login back-end complete
+
+[33mcommit 28f08ded7d309b64790e65817a5e3c7f066a9d8f[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 12:23:07 2017 -0500
+
+    user login back-end complete
+
+[33mcommit 7a840e218148613277dfa6d733d2555c5f086327[m
+Merge: b617cd7 42b2606
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:57:10 2017 -0500
+
+    Merge branch 'dev' of https://github.com/rjmohammad/farmers-market-app into dev
+
+[33mcommit b617cd7ff4976e7fd8c5e8bfab61d00039d89914[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:56:37 2017 -0500
+
+    finished route for twilio
+
+[33mcommit 2d88185e93d738b354367dc957a9630fd3f9a323[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:33:03 2017 -0500
+
+    made twilio controller
+
+[33mcommit e62ea08aa27e2ffe94bdb32f759a82a74f98d558[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:12:51 2017 -0500
+
+    made basic twilio app
+
+[33mcommit 785055bc67cb981e1387d7fa283f556d7f0eb1db[m
+Merge: 95db003 147f290
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 11:49:54 2017 -0500
+
+    Merge pull request #15 from mcfungster/dev
+    
+    user signup back-end complete
+
+[33mcommit 147f2902ec0ee018d17e7db4ae9779968ff0d03f[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 11:46:01 2017 -0500
+
+    user signup back-end complete
+
+[33mcommit 42b2606a0f63c7c6e1887e68ce68846cfd85ed14[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:33:03 2017 -0500
+
+    made twilio controller
+
+[33mcommit 2b7b32aedceff5aced12d105a7a634a8971d4941[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Thu Feb 2 11:12:51 2017 -0500
+
+    made basic twilio app
+
+[33mcommit 95db003cdb386b0e2ea46a70c9d473299d02dafc[m
+Merge: f534352 de8acae
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 11:34:34 2017 -0500
+
+    Merge pull request #14 from mcfungster/dev
+    
+    Dev
+
+[33mcommit de8acae7c2a23a68848ea3b72740865b4d31b38a[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 11:33:05 2017 -0500
+
+    developed user model and signup route
+
+[33mcommit ba62dfec218577944fe4e48d0c243c922c54604d[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 11:08:53 2017 -0500
+
+    routes.js refactor complete
+
+[33mcommit 6af5c5bba073d7c142029f2aa86ba50e8b8571bb[m
+Author: Kevin Fung <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 11:01:53 2017 -0500
+
+    routes.js refactor pre-commit
+
+[33mcommit f534352480f2ff1cfbd1c93599ad8a07234d227d[m
+Merge: ef6bbcb 817ed5f
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Thu Feb 2 09:52:14 2017 -0500
+
+    Merge pull request #13 from rjmohammad/dev
+    
+    Dev
+
+[33mcommit 817ed5f7827b42c21ad658cb15a16000cc98add5[m
+Merge: 453d90a 52114db
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 23:33:53 2017 -0500
+
+    Merge branch 'dev' of https://github.com/rjmohammad/farmers-market-app into dev
+
+[33mcommit 453d90a2ee3d9d6aedc0f16aec5c38353c682d85[m
+Merge: 84293c0 32a27b6
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 23:33:07 2017 -0500
+
+    Merge branch 'database' into dev
+
+[33mcommit 84293c01713e123ca5cbe565327b3f5ede860ac4[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Tue Jan 31 12:06:56 2017 -0500
+
+    changed git ignore
+
+[33mcommit 32a27b6d46fedecde5b8ab250cb324d22c6ba444[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 23:30:57 2017 -0500
+
+    cleaned up files
+
+[33mcommit 59e992c33e3b92367a2ca0ae27560f826d12979f[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 23:29:03 2017 -0500
+
+    fixed some minor errors
+
+[33mcommit 61fc240d657460980f3003dca4362b9803b5782d[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 22:58:15 2017 -0500
+
+    got th epage to update with new search of
+    address
+
+[33mcommit c78cf87e43a39512d4012b8cb36f80baa13ffffd[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 17:39:03 2017 -0500
+
+    caching the data to database on a new
+    zipcode
+
+[33mcommit 8feada83027e83ff1ca17ce530f701d9c47e66f5[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 16:15:23 2017 -0500
+
+    made the array of objects for markets from api
+    to cache into database when a new zipcode is entered
+
+[33mcommit e08339690ee872fa34b63e88055a941648d2bfb0[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 14:27:49 2017 -0500
+
+    modularize code
+
+[33mcommit 275a01d163e65c448a2b75988485046f1833ef5a[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 14:23:12 2017 -0500
+
+    made fetching zip codes more reliable
+
+[33mcommit ef44faa79879aa399cc7761d4c8021b11f85f750[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Wed Feb 1 14:05:23 2017 -0500
+
+    add zip codes to zip documents
+
+[33mcommit 6e125b4b54218eef3e76f0982d6df9b6bc716b05[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Tue Jan 31 12:06:56 2017 -0500
+
+    changed git ignore
+
+[33mcommit ef6bbcb23d720d55def74cd0eed9812d25c9ebc5[m
+Merge: 31861d6 84f02b7
+Author: Kevin <kevinmcfung@gmail.com>
+Date:   Tue Jan 31 12:13:26 2017 -0500
+
+    Merge pull request #1 from peterschussheim/dev
+    
+    Dev
+
+[33mcommit 84f02b753972c49c51f0e340271efec81d300411[m
+Merge: 019c244 01c94e7
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Tue Jan 31 12:09:32 2017 -0500
+
+    Merge branch 'dev' of https://github.com/peterschussheim/farmers-market-app into dev
+
+[33mcommit 019c244daa20426d2f7dc4fbf3f07ee5c0f119e4[m
+Author: Peter Schussheim <peter@schussheim.com>
+Date:   Tue Jan 31 12:09:04 2017 -0500
+
+    add yarn lockfile
+
+[33mcommit 4f47770de85fda0c13ccc0adc4c428751f5a8003[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Tue Jan 31 11:46:42 2017 -0500
+
+    Readme update
+
+[33mcommit 52114db29b4a63124f9321316504beb9a61398ad[m
+Author: RJ Mohammad <rjmohammad@outlook.com>
+Date:   Tue Jan 31 12:06:56 2017 -0500
+
+    changed git ignore
+
+[33mcommit 01c94e7ff3f3fa31be06546b5a50d1962441b748[m
+Merge: 31861d6 eb8a2de
+Author: Rishi Shah <Bavarian05@users.noreply.github.com>
+Date:   Tue Jan 31 11:47:29 2017 -0500
+
+    Merge pull request #39 from Bavarian05/dev
+    
+    Readme update
+
+[33mcommit eb8a2def71548a72826631270a79a28409b1f045[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Tue Jan 31 11:46:42 2017 -0500
+
+    Readme update
+
+[33mcommit 31861d688dba1fd6f85db455aa3da0b94675a4ff[m
+Merge: 01c79a0 2ea56ca
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Tue Jan 31 09:47:28 2017 -0500
+
+    Merge pull request #37 from xutopia/dev
+    
+    Documentation, README, Instructions
+
+[33mcommit 01c79a0f7013c58f1c8d8df6583ae0ca7a4a5be1[m
+Merge: 8724f84 7acf837
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Tue Jan 31 09:47:21 2017 -0500
+
+    Merge pull request #38 from Bavarian05/dev
+    
+    Updated comments to code
+
+[33mcommit 7acf837a5c5210fd8b08eda6f3f89da365a5b54a[m
+Merge: e91182d bd9b343
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Tue Jan 31 00:41:23 2017 -0500
+
+    Merge branch 'comments' into dev
+
+[33mcommit e91182d0cb32cf6a8dfc233124ddc73817c98511[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Tue Jan 31 00:39:41 2017 -0500
+
+    Add explanatory comments to code
+
+[33mcommit bd9b343164e84bb0cff56ea754a59f23dd6b337e[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Tue Jan 31 00:39:41 2017 -0500
+
+    Add explanatory comments to code
+
+[33mcommit 2ea56cabff29935b30f0ba92d8a3a3e6e5ed12e7[m
+Merge: 1c1b0b6 3e9e720
+Author: xutopia <xuology@gmail.com>
+Date:   Tue Jan 31 00:05:30 2017 -0500
+
+    resolve merge conflicts in README
+
+[33mcommit 1c1b0b60e4e5f72d460355db22f9a6d19844eaa6[m
+Author: xutopia <xuology@gmail.com>
+Date:   Mon Jan 30 13:51:25 2017 -0500
+
+    added template styling to admin login
+
+[33mcommit b5e8ce79092e3308515bb52e96ceba4553448599[m
+Author: xutopia <xuology@gmail.com>
+Date:   Mon Jan 30 13:41:17 2017 -0500
+
+    added a contributing.md file and updated README
+
+[33mcommit 3e9e72037d9f2bb08db2fd03620ba0d8fc844e2c[m
+Author: xutopia <xuology@gmail.com>
+Date:   Tue Jan 31 00:02:23 2017 -0500
+
+    add documentation and instructions for database setup/population
+
+[33mcommit 8724f8405b1a94f5163dfe9ec072a6b24fa18673[m
+Merge: 9565692 f436239
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 19:44:14 2017 -0500
+
+    Merge pull request #36 from Bavarian05/dev
+    
+    Reorganized client files
+
+[33mcommit f436239f97b4836f0de30c326c3b9bf24da637f6[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 19:42:57 2017 -0500
+
+    Reorganized client files
+
+[33mcommit 9565692689ebdc429cc999d664764866e44d7a9e[m
+Merge: 2437ff1 25869b1
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 14:23:00 2017 -0500
+
+    Merge pull request #35 from Bavarian05/dev
+    
+    Styling, API Fix, Name Change & More!
+
+[33mcommit 25869b17d503f4871eb0ee8d39d53d882fb8d52d[m
+Merge: 8f4d847 617c8b5
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 14:21:03 2017 -0500
+
+    Merge branch 'resultsPage' into dev
+
+[33mcommit 8f4d847d4e3cf054816dcef0dadbd120dcf6d340[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 14:19:20 2017 -0500
+
+    Modified autocomplete and styling
+
+[33mcommit 9e661d46179f49ffb122a0022564cbc27bcb4079[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 14:10:26 2017 -0500
+
+    Updated search.html styling
+
+[33mcommit 4356ecdb4006129b9f191831d3309c36f5889a8d[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 13:58:43 2017 -0500
+
+    Styling & Autocomplete
+
+[33mcommit 617c8b5d5e5a9ff89b9d95df39c6e65174968b50[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 14:19:20 2017 -0500
+
+    Modified autocomplete and styling
+
+[33mcommit 2437ff1c8a8ebdc0734700d05b90031081db8838[m
+Merge: 691830a 6e191b9
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 14:17:22 2017 -0500
+
+    Merge pull request #34 from rekhviasN/dev
+    
+    Dev
+
+[33mcommit 6e191b9f4a1e926af978bd439bedf61d0316f42e[m
+Merge: a6bf11a 691830a
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 14:17:16 2017 -0500
+
+    Merge branch 'dev' into dev
+
+[33mcommit a6bf11aba07fc6db1ed87a9ad574b43bbdd2b9f0[m
+Merge: 2e40e81 9b1bb46
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 14:14:40 2017 -0500
+
+    Merge branch 'adminUpdatePage' into dev
+
+[33mcommit 9b1bb460fc477462e0328ae0ecc4bc7ebcf47b85[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 14:12:34 2017 -0500
+
+    add functionality of adding markets
+
+[33mcommit 9e4e1b5c71b02e04ba3609c6c2550b6992776212[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 14:10:26 2017 -0500
+
+    Updated search.html styling
+
+[33mcommit 877d0dc85a826f5c14d035fcbfea5baf638803ce[m
+Merge: 64917a4 46b3d39
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 13:59:29 2017 -0500
+
+    Merge branch 'resultsPage' into dev
+
+[33mcommit 64917a41a05967850d46ac71e334775c6d4ceab7[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 13:58:43 2017 -0500
+
+    Styling & Autocomplete
+
+[33mcommit 46b3d39f91cd7fd94cd668f35003518af284ad4c[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 13:58:43 2017 -0500
+
+    Styling & Autocomplete
+
+[33mcommit 59173641894e0de0232790e8cc0a651c7c973df4[m
+Author: xutopia <xuology@gmail.com>
+Date:   Mon Jan 30 13:51:25 2017 -0500
+
+    added template styling to admin login
+
+[33mcommit eb0079855d8ddd966c83f417613a14c533adbe0b[m
+Author: xutopia <xuology@gmail.com>
+Date:   Mon Jan 30 13:41:17 2017 -0500
+
+    added a contributing.md file and updated README
+
+[33mcommit 691830ad82d180317c6ef509826045efcf273c1f[m
+Merge: d2ec754 447e66e
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 13:10:39 2017 -0500
+
+    Merge pull request #33 from xutopia/dev
+    
+    Admin Login Authentication Complete
+
+[33mcommit 447e66ea035108fb0ca5592d1fcfd3447f4d99dd[m
+Author: xutopia <xuology@gmail.com>
+Date:   Mon Jan 30 13:08:02 2017 -0500
+
+    fixed final merge conflicts. App works in normal mode. Still need to do tests
+
+[33mcommit 742d06009da85651832a0dd23be8c9b280749b75[m
+Merge: d2ec754 a64f526
+Author: xutopia <xuology@gmail.com>
+Date:   Mon Jan 30 12:59:28 2017 -0500
+
+    fixed merge conflicts
+
+[33mcommit a64f526d6232be0c765917cda3b9e6697d4a2527[m
+Author: xutopia <xuology@gmail.com>
+Date:   Mon Jan 30 12:55:19 2017 -0500
+
+    complete server-side admin authentication. Will run tests if time allows
+
+[33mcommit d2ec75409e53e986cc884181d032fcabc26a0282[m
+Merge: 2e40e81 f17c1b9
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 12:52:22 2017 -0500
+
+    Merge pull request #32 from Bavarian05/dev
+    
+    Styling, API Fix, and Name Change
+
+[33mcommit f17c1b95a483b099c34e3d8a3f2e583a950f88ba[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 12:49:16 2017 -0500
+
+    More styling updates
+
+[33mcommit 415e77d9a367b483cac838010463bfd928266b11[m
+Merge: 2e40e81 ad4154f
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 12:39:48 2017 -0500
+
+    resolve conflict
+
+[33mcommit ad4154f6344acd417cbec8f68bad4af80f98fc69[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Mon Jan 30 12:29:25 2017 -0500
+
+    Fixed Google API error & changed app name
+
+[33mcommit 2e40e811f13bea96dc240f10117eb097bfaaf898[m
+Merge: bd341d2 26a656a
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 01:16:02 2017 -0500
+
+    Merge pull request #30 from Bavarian05/dev
+    
+    Fixed some styling & attempted to add autocomplete to the filter input
+
+[33mcommit bd341d22888c0cefd51373735fc432ad5a9a6cb5[m
+Merge: cf7c46e b9ce99a
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 01:15:50 2017 -0500
+
+    Merge pull request #31 from rekhviasN/dev
+    
+    adds ability to update and delete an existing farm
+
+[33mcommit b9ce99a8870f7f396830671873f6686d98976488[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 01:14:24 2017 -0500
+
+    add ability to update and delete existing farms
+
+[33mcommit 133f0919d40434d0c70fba30026a6593598134d1[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Mon Jan 30 01:10:48 2017 -0500
+
+    add function update farm form
+
+[33mcommit d7354d6d3eec9e0df565cc86473d96df308d89a7[m
+Author: xutopia <xuology@gmail.com>
+Date:   Mon Jan 30 00:45:41 2017 -0500
+
+    debugging... fixed all client-side bugs. Now just have to fix all server-side bugs. And to invoke setup so that an admin is in our DB
+
+[33mcommit 4e446dbce86ff6ff5845a4bcef4461fb6f9e4ed3[m
+Author: xutopia <xuology@gmail.com>
+Date:   Mon Jan 30 00:01:14 2017 -0500
+
+    fixed syntax errors, app is functional. Need to add a button for client to access login page
+
+[33mcommit 750596e20352f6cf8f2587f4d90d13696d72a8dd[m
+Author: xutopia <xuology@gmail.com>
+Date:   Sun Jan 29 23:57:14 2017 -0500
+
+    updated admin model to include a comparePassword method and a means for hasing/salting passwords
+
+[33mcommit 26a656a01a7d078bd7d82d73a804fc92d347d757[m
+Merge: cf7c46e db1758a
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Sun Jan 29 23:51:46 2017 -0500
+
+    Merge branch 'resultsPage' into dev
+
+[33mcommit db1758ab2be8d0108ac4d6c565d4a002e210a036[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Sun Jan 29 23:49:16 2017 -0500
+
+    Add non-working autocomplete functionailty to filter
+
+[33mcommit 9ef5bcb8ad640e87c7f0a50373ec74490ee7d590[m
+Author: xutopia <xuology@gmail.com>
+Date:   Sun Jan 29 23:06:03 2017 -0500
+
+    create adminController on server-side, added login route
+
+[33mcommit 46452868a596542c946915af678359a505c5c6bd[m
+Author: xutopia <xuology@gmail.com>
+Date:   Sun Jan 29 21:40:20 2017 -0500
+
+    complete client side set-up for admin login. Included factory, controller, routeChange event listener, token storage in localStorage. Will need to finish authentication on server side
+
+[33mcommit 7d996092d3a2e7661660d82275818594bb224a01[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Sun Jan 29 21:36:58 2017 -0500
+
+    Improve styling on main and results page
+
+[33mcommit 0c2613f2dec030bc87dca4c98250d75c1c82d3cd[m
+Author: xutopia <xuology@gmail.com>
+Date:   Sun Jan 29 19:30:07 2017 -0500
+
+    complete admin login html template
+
+[33mcommit 83005dea488b43156568ad633336b87b50a3e642[m
+Author: xutopia <xuology@gmail.com>
+Date:   Sun Jan 29 19:21:09 2017 -0500
+
+    set up admin login page and admin login controller and factory
+
+[33mcommit 140ad280e2a8ea1dd2e5730567d1fb34abaf408f[m
+Author: xutopia <xuology@gmail.com>
+Date:   Sun Jan 29 18:55:03 2017 -0500
+
+    set up back-end to receive login information. Will work on front-end to set up admin login page
+
+[33mcommit da3551f3cae928cfecd30b1d53cdae4785477b24[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Sun Jan 29 18:43:44 2017 -0500
+
+    added alert functionality to farm search for invalid input
+
+[33mcommit fdb00f2e63abfe91ce75bfe05617635998e370a4[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Sun Jan 29 17:55:23 2017 -0500
+
+    Remove redundant comments
+
+[33mcommit 2cff0b7e1d480bfd367b71461408d3065bc4f50a[m
+Author: xutopia <xuology@gmail.com>
+Date:   Sun Jan 29 14:48:19 2017 -0500
+
+    add packages for hashing password and sessions. Complete server.js setup to allow authentication
+
+[33mcommit d3632d2fc9fb56e78fa7b4b3f3429bb3864ee37a[m
+Author: xutopia <xuology@gmail.com>
+Date:   Sun Jan 29 14:22:15 2017 -0500
+
+    added an admin model to the mongoDB
+
+[33mcommit cf7c46ef11482a61889ebdfda951f2684f59d13b[m
+Merge: 6a68ee6 ea92000
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Sun Jan 29 13:52:02 2017 -0500
+
+    Merge pull request #29 from Bavarian05/dev
+    
+    Adds Marker Functionality
+
+[33mcommit ea9200000955023ca23a68d688e557d5629f91d1[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Sat Jan 28 21:04:46 2017 -0500
+
+    Removed redundant comments & <pre> tag on map.html
+
+[33mcommit 6a0fe42be11cf72296960b5811880b9acf39438e[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Sat Jan 28 20:52:56 2017 -0500
+
+    Implemented Info Window function for markers
+    
+    * Informational window pops up when clicking on a marker
+    * Resizes map to show markers on new search
+
+[33mcommit 2cdc2c80dbe58444e150a7f1eda41bca2cb96f21[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Sat Jan 28 18:58:04 2017 -0500
+
+    Implement Google Maps markers on results page
+    
+    * Markers for each market result generate and are placed on map
+    * Add Marker methods to Google Maps factory
+    * Adjust default radius to 5 miles
+
+[33mcommit 03d1d9541873d6f418d620c907fa407542b7afc1[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Sat Jan 28 15:06:09 2017 -0500
+
+    Update to new results format & fix search on map.html
+    
+    * Update html and sample data match the data format of the response
+    data server is now sending
+    * Add search button to map.html page
+    * Fix search functionality on map.html page to work
+
+[33mcommit 14a3f218478921fee735f746efb5861c8657149b[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Sat Jan 28 14:50:01 2017 -0500
+
+    Fix redirect to results page & some es6 syntax
+    
+    * Fixed error where Search factory methods were not returning an $http
+    promise causing the redirect to the results page to break once client
+    received a response from the server.
+    
+    * Search factory now saves search results to an internal variable so
+    they can be used in any Controller that Search factory is injected into.
+    
+    * Modified some es6 variables to use let instead of const.
+    
+    * Added <pre> tag to map.html to see results while developing
+
+[33mcommit 6a68ee6196e09e185c3ef8e10d5265fe7d99d6d2[m
+Merge: 8d3e168 0c2639e
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Sat Jan 28 04:16:40 2017 -0500
+
+    Merge pull request #28 from rekhviasN/dev
+    
+    Dev
+
+[33mcommit 0c2639e1695bb24db7f0609533d533534a4c8747[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Sat Jan 28 04:12:50 2017 -0500
+
+    display retrieved farm with non-functional buttons to edit properties
+
+[33mcommit a5ab003baa129e85a448f53d77369f23f9c8950e[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Fri Jan 27 23:08:14 2017 -0500
+
+    add an admin page that at this point allows to query the database for objects based on farm id
+
+[33mcommit 8d3e1684b866281e75020d57c8d93c899e19613a[m
+Merge: d2e1a8b e2428a4
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Fri Jan 27 17:32:34 2017 -0500
+
+    Merge pull request #26 from xutopia/dev
+    
+    Added `user select radius` functionality
+
+[33mcommit e2428a485acf8bb65370b4aa3d98bcc25c9b1529[m
+Merge: d2e1a8b e67f895
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 27 16:52:28 2017 -0500
+
+    Merge branch 'radius' into dev
+
+[33mcommit e67f89552c22451832a740777a97c3af68544d30[m
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 27 16:47:51 2017 -0500
+
+    backend will now allow search by radius, and return query result based on set radius
+
+[33mcommit 535c3766455791e13013a736900926fc5dc4f468[m
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 27 16:07:51 2017 -0500
+
+    added radius input option in front-end. Need to allow user input of radius to be incorporated into DB query in backend
+
+[33mcommit d2e1a8b8cc6a1c24e5765bc8ff8f0df071373d3d[m
+Merge: 9b62c70 b8b6749
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Fri Jan 27 13:58:34 2017 -0500
+
+    Merge pull request #25 from xutopia/dev
+    
+    User search query can be properly made now
+
+[33mcommit b8b6749e9dab2e947397e0b405c0bc77d2051dd8[m
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 27 12:30:58 2017 -0500
+
+    commented on what the AddController will do
+
+[33mcommit 11654215f9d7a7da5adc4f759ac169b771653136[m
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 27 12:22:13 2017 -0500
+
+    add new POST factory function and add controller to client side. In hindsight, should not have done this commit in server branch
+
+[33mcommit 6e8a02aaf76d8e3e63bbdce74156d232375e8aaa[m
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 27 12:08:49 2017 -0500
+
+    modified GET request from client side to successfully make DB query
+
+[33mcommit 10b4e550b4d23f94802a9d333827430d69fa593c[m
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 27 11:51:22 2017 -0500
+
+    added a createMarket route with controller, need to implement controller. Also modified gulp file to work properly
+
+[33mcommit 9b62c70a5c31625a3bdbd7633d4cc1c471db1758[m
+Merge: 15c801a 90a5b28
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Fri Jan 27 05:32:02 2017 -0500
+
+    Merge pull request #24 from rekhviasN/dev
+    
+    Adds geospatial functionality
+
+[33mcommit 90a5b280967c01ed6172c83be389d0c19b849ed7[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Fri Jan 27 05:25:12 2017 -0500
+
+    updates marketController to reflect geospatial functionality
+
+[33mcommit 3524fb38c931bb63cbf50b61f36edb6ced975253[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Fri Jan 27 05:16:08 2017 -0500
+
+    update marketController such that it returns all markets within a given (10) mile radius
+
+[33mcommit 15c801a7ef15cab03f2ba8b29acae6c5bff0bae9[m
+Merge: 27912d0 ce70972
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Fri Jan 27 05:21:38 2017 -0500
+
+    Merge pull request #23 from Bavarian05/dev
+    
+    Progress on search results page & made changes to dev tools
+
+[33mcommit ce70972487137f7db517f3edbd67cd72e29f1275[m
+Merge: 8b83ed9 dc0e4fb
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Fri Jan 27 04:31:25 2017 -0500
+
+    Merge branch 'resultsPage' into dev
+
+[33mcommit dc0e4fbe14cfc06e712dea0bd7d5ba144ed0cc96[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Fri Jan 27 04:30:19 2017 -0500
+
+    Add Google Maps to results page
+
+[33mcommit 8b83ed911a1122673f9770c84de3306b82ec74cd[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Fri Jan 27 02:55:59 2017 -0500
+
+    Remove duplicate dependencies in package.json
+
+[33mcommit 881f4a70c2be3ec75a63a477b95f0c610e6cb21b[m
+Merge: 27912d0 6710c3c
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Fri Jan 27 02:50:49 2017 -0500
+
+    Merge branch 'resultsPage' into dev
+
+[33mcommit 6710c3c999300a7212628b822e1843b8217cf843[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Fri Jan 27 02:41:41 2017 -0500
+
+    Add product filter functionality
+
+[33mcommit 76047cfe0fa566fc779f530caaf3d4f950aee084[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Fri Jan 27 01:20:50 2017 -0500
+
+    Add styling to map.html and implement results list
+    
+    * Added styling to maps page for logo and list
+    * Updated classes on search.html to reflect css changes
+    * Added search bar to map.html
+    * Added in sample data to display results
+
+[33mcommit 27912d00fae392708184e52c53230092d305aea9[m
+Merge: f3d8f83 08c672a
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Thu Jan 26 19:19:14 2017 -0500
+
+    Merge pull request #22 from xutopia/dev
+    
+    Added Tests
+
+[33mcommit f3d8f833a325e5a3cbf364940c35f04db1ee09b8[m
+Merge: 7508621 faf42e6
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Thu Jan 26 19:19:03 2017 -0500
+
+    Merge pull request #21 from Bavarian05/dev
+    
+    Updates with new map page
+
+[33mcommit 065c9e77c333656b277c3a2eba5167fca2c8f6d2[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Thu Jan 26 18:27:36 2017 -0500
+
+    Remove search.html styling from map.html
+
+[33mcommit 67a4d3eb59538c7f4c38b7b795432a948e9c55ce[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Thu Jan 26 18:10:20 2017 -0500
+
+    Remove changes to server.js to prevent merge conflict
+
+[33mcommit 1904c980f9658a5cacf3f47f3ec9bc55b77677f1[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Thu Jan 26 18:06:22 2017 -0500
+
+    Connect map files to main app.js
+    
+    * Inject map controller into main app.js
+    * Add map.js script to index.html
+    * Comment out sample code to prevent errors
+    * Update server.js to server static flies
+
+[33mcommit 989d2936380cb19368c4d51101b683821f20e65b[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Thu Jan 26 17:50:20 2017 -0500
+
+    Add gulp build tools & fix mongo URI path
+    
+    * Add gulp to package.json development tools
+    * Set up gulp task to auto reload browser and server upon updating files
+    * Made slight modifications to the mongo URI path in server.js so system
+      is looking for the API key in the correct place
+
+[33mcommit 08c672a018ef08955e282c064b7f5b68b5040e96[m
+Merge: cfaf290 603b786
+Author: xutopia <xuology@gmail.com>
+Date:   Thu Jan 26 16:37:27 2017 -0500
+
+    resolve merge conflicts in server.js and test_log.log
+
+[33mcommit cfaf2900ac557779aefbdefb6418f055835e9cd1[m
+Author: xutopia <xuology@gmail.com>
+Date:   Thu Jan 26 16:35:38 2017 -0500
+
+    resolved server/server.js merge conflicts
+
+[33mcommit 603b78642391dd57be22d32eca72e9f9969c9502[m
+Author: xutopia <xuology@gmail.com>
+Date:   Thu Jan 26 16:32:20 2017 -0500
+
+    updated test_log to reflect the unit test that was written. Will write more tests in future if time permits
+
+[33mcommit faf42e621a0fc0e7bf12535fce92f18933734181[m
+Merge: 7508621 7a93e65
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Thu Jan 26 16:10:43 2017 -0500
+
+    Resolve merge conflict
+
+[33mcommit 7a93e6526a31b291bf91193efaf4d7cb51a3f440[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Thu Jan 26 15:56:44 2017 -0500
+
+    Add sections to map.html
+
+[33mcommit 7508621c9262e2926242ff3e0d07fe738d495ce7[m
+Merge: 079f49f 3aa82d6
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Thu Jan 26 15:50:56 2017 -0500
+
+    Merge pull request #20 from rekhviasN/dev
+    
+     deleted temp files, instantiated new mongoDB user and concealed new …
+
+[33mcommit 3aa82d6caac4778ceab4585aa5ed4b5873a0472f[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Thu Jan 26 15:49:00 2017 -0500
+
+     deleted temp files, instantiated new mongoDB user and concealed new mongoURI
+
+[33mcommit defa5711a3698a51dd8c027ee6d1f5e4d2845b7b[m
+Author: xutopia <xuology@gmail.com>
+Date:   Thu Jan 26 15:13:01 2017 -0500
+
+    complete a single, extremely trivial, unit test on making sure the googleapi geocode works as expected
+
+[33mcommit 63a0d34c335df76a5abafd4d835090019797f452[m
+Author: xutopia <xuology@gmail.com>
+Date:   Thu Jan 26 12:25:07 2017 -0500
+
+    fixed merge conflict in server/server.js
+
+[33mcommit 079f49f50d47593f0f336464f58c7e3ffe322053[m
+Merge: b86eac5 d59ce66
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Thu Jan 26 12:12:14 2017 -0500
+
+    Merge pull request #18 from rekhviasN/dev
+    
+    Merge pull request #16 from rekhviasN/dev
+
+[33mcommit b86eac5092110bf00ab516681ee202aa9d44490e[m
+Merge: 9d62c31 0f09e50
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Thu Jan 26 12:08:53 2017 -0500
+
+    Merge pull request #17 from rekhviasN/dev
+    
+    Dev
+
+[33mcommit 8ba5a16bf7c949e1132a4fbd516f990a953d2085[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Thu Jan 26 00:53:54 2017 -0500
+
+    Remove geocode.js & add initial results page code
+
+[33mcommit 99892ef9e8103cd3c06e60736b4fe0360e5d4e56[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Wed Jan 25 23:53:53 2017 -0500
+
+    Implement client routing & server to send static files
+    
+    * Implemented routing with angular ngRoutes
+    * Moved main html on index.html to search.html
+    * Tweaked server to server up static client files
+
+[33mcommit d59ce661e260a719fc985a6760893f8d6e4b427d[m
+Merge: 0e48860 0f09e50
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 21:36:25 2017 -0500
+
+    Merge pull request #16 from rekhviasN/dev
+    
+    Dev
+
+[33mcommit 0f09e509f4db2d6bd15642871cff2df5e33d9597[m
+Merge: 9d62c31 c6537f4
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 21:34:06 2017 -0500
+
+    merge error in package.json fixed
+
+[33mcommit c6537f4bd101ab3ac0b1dfe77d4ce5a8cec9955e[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 21:31:17 2017 -0500
+
+    update package.json file
+
+[33mcommit edda4ff0818c1e66f015037b1cfb7bf868f20c3e[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 21:29:19 2017 -0500
+
+    complete function to parse raw data and succesfully insert it into the database
+
+[33mcommit 9d62c319baafe264bb08041ef328ce20ba21e4fd[m
+Merge: cac3e84 a2716ec
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 17:38:56 2017 -0500
+
+    Merge pull request #15 from Bavarian05/geocoder
+    
+    Major styling improvements & added search functionality to client
+
+[33mcommit cac3e8491a719be185aa8bdea87589c5ed8ea914[m
+Merge: b23bec2 d0e5d71
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 17:38:39 2017 -0500
+
+    Merge pull request #14 from xutopia/dev
+    
+    Establish working server with connection from front, to server, to DB.
+
+[33mcommit a2716ec12f023dc18df4b3b1f7c5b0c278b50e57[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Wed Jan 25 17:29:28 2017 -0500
+
+    Implement search request & update homepage styling
+    
+    Major updates to the homepage styling and layout which includes:
+    * Adding Angular Material CSS
+    * Adding Google Fonts - Open Sans and Cookie
+    * New background image
+    * Various styling tweaks to copy on page
+    
+    Implemented basic search functionality that sends address user enters to
+    server to process.
+    
+    Added routing skeleton for future page development.
+
+[33mcommit 649cbf41ae589b6004d4da44de6d786bb469be5c[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Wed Jan 25 17:29:01 2017 -0500
+
+    Add new homepage background image
+
+[33mcommit d0e5d71054e6e4bbb81d72f3ea3411b0dbe0347c[m
+Author: xutopia <xuology@gmail.com>
+Date:   Wed Jan 25 17:05:56 2017 -0500
+
+    resolve merge conflicts in package.json
+
+[33mcommit eecab81032d1471d00ef468e5675ee583cade163[m
+Merge: b23bec2 4fab8ef
+Author: xutopia <xuology@gmail.com>
+Date:   Wed Jan 25 17:03:39 2017 -0500
+
+    resolve merge conflicts in server.js
+
+[33mcommit 4fab8ef38e5c0cf7e676a14bc1effaa2404e29ca[m
+Author: xutopia <xuology@gmail.com>
+Date:   Wed Jan 25 16:51:33 2017 -0500
+
+    set up basic mongoDB query in marketMethods. Front-end, server, and DB successfully linked together. Will need to run basic test to confirm
+
+[33mcommit 4bcb174dd2604f80d0d1c9f1872812164ba705c2[m
+Author: xutopia <xuology@gmail.com>
+Date:   Wed Jan 25 16:41:24 2017 -0500
+
+    reconfigured the directory to have a separate server folder with sub-directories
+
+[33mcommit 3ab03661a19277d0bc649baaed8450444f8bb6d9[m
+Author: xutopia <xuology@gmail.com>
+Date:   Wed Jan 25 16:09:32 2017 -0500
+
+    complete retrieval of the geocode on server side based on client input of valid address
+
+[33mcommit b23bec2f35e91dae7f844657628adae5c5fa2c76[m
+Merge: 5aeb17e 1741ba2
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 14:04:58 2017 -0500
+
+    Merge pull request #13 from Bavarian05/geocoder
+    
+    Updates to Client side + Updated package.json
+
+[33mcommit 1741ba2e827c949b17d2e3c3c0ac8ba638af00c8[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Wed Jan 25 14:00:00 2017 -0500
+
+    Reorganize modules in package.json into proper lists
+
+[33mcommit cbf4f58df1912ac858099fce45ec3996e9911202[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Wed Jan 25 13:49:54 2017 -0500
+
+    Add routing outline for client app
+
+[33mcommit ff1e6d40daa8771e7396b6ff3f69efdfeed65dc3[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Wed Jan 25 12:15:57 2017 -0500
+
+    Organize client files & add controller and factory file for search
+
+[33mcommit a24ad7b1497df170c6bb15df8f994974db96db32[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Wed Jan 25 11:17:17 2017 -0500
+
+    Add files to handle Geocode API lookup
+
+[33mcommit 5aeb17ef0b609948e583bad7d2d072f4a396d83d[m
+Merge: df5c67b fbfe669
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 00:11:02 2017 -0500
+
+    Merge pull request #12 from rekhviasN/dev
+    
+    Dev
+
+[33mcommit fbfe6690bfe5302cfa88d95897c90db090a6509c[m
+Merge: df5c67b cc1b219
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 00:09:00 2017 -0500
+
+    Merge branch 'database' into dev
+
+[33mcommit cc1b219c3f0a8d487ad30982f3d2a559b00aa51e[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Wed Jan 25 00:08:23 2017 -0500
+
+    provides bulkData and bulkTesk; bulkTest is a function that when run in node will create new models from bulkData and store it in the database; bulkTest needs a lookover given error related to promises. at this commit, the database is successfully accepting JSON post requests
+
+[33mcommit bb987ff94aa7031749a792477b0edaf5ec2f1149[m
+Author: xutopia <xuology@gmail.com>
+Date:   Tue Jan 24 19:01:49 2017 -0500
+
+    pseudocode a simple GET request for backend. Will need to implement depending on how DB is set up and how front-end wants the response
+
+[33mcommit df5c67b85c36daed3eb86b2c4b568cef84646662[m
+Merge: 65a258c 89ddfd2
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Tue Jan 24 18:56:25 2017 -0500
+
+    Merge pull request #10 from rekhviasN/dev
+    
+    created server folder
+
+[33mcommit 89ddfd23f8e05399ce2b8190f4c43a424484ea71[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Tue Jan 24 18:53:22 2017 -0500
+
+    created server folder
+
+[33mcommit 65a258ce1d9ea5ba0edbcf07fc8118e9d5d9398c[m
+Merge: a7c68f2 1752a1b
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Tue Jan 24 17:06:36 2017 -0500
+
+    Merge pull request #9 from xutopia/dev
+    
+    Complete fetching of market data
+
+[33mcommit 0e1ac3b40325f6e2a39a9705d3a0ea0b0bde7c55[m
+Author: xutopia <xuology@gmail.com>
+Date:   Tue Jan 24 12:51:16 2017 -0500
+
+    added dependencies
+
+[33mcommit 96999be97d54ef1dc57ab407e0358837c9962ea0[m
+Author: xutopia <xuology@gmail.com>
+Date:   Tue Jan 24 12:47:44 2017 -0500
+
+    fetched all individual market data
+
+[33mcommit e0399ac820154e93039708fce77101e78f0920bf[m
+Author: xutopia <xuology@gmail.com>
+Date:   Tue Jan 24 10:51:18 2017 -0500
+
+    combined all market ID into 1 file. Need to fetch individual market data
+
+[33mcommit 1752a1b8f16b6566ed0316ccd4398059684ae170[m
+Author: xutopia <xuology@gmail.com>
+Date:   Tue Jan 24 12:51:16 2017 -0500
+
+    added dependencies
+
+[33mcommit e56c5282247b8b285acfb6026f024b75c8b89096[m
+Author: xutopia <xuology@gmail.com>
+Date:   Tue Jan 24 12:47:44 2017 -0500
+
+    fetched all individual market data
+
+[33mcommit 8f02b46131b609f47f1d012e006917365d84f137[m
+Author: xutopia <xuology@gmail.com>
+Date:   Tue Jan 24 10:51:18 2017 -0500
+
+    combined all market ID into 1 file. Need to fetch individual market data
+
+[33mcommit a7c68f242021b0c943cbcde76a320f7ca8351b1d[m
+Merge: b957f38 c759f3a
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Fri Jan 20 19:36:26 2017 -0500
+
+    Merge pull request #8 from xutopia/dev
+    
+    Complete GET data for farmer's market in NYC
+
+[33mcommit c759f3a0fee44fd2c9237d06b9f252d29ba9ff88[m
+Merge: 3e4fcff 66e5b8b
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 20 19:33:23 2017 -0500
+
+    Merge branch 'realData' into dev
+
+[33mcommit 3e4fcff2686121b580068c7561338dfc9bf7bf6d[m
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 20 19:30:43 2017 -0500
+
+    resolved rebase
+
+[33mcommit 66e5b8bd9d732ec105aa5adc880abd5609db54b8[m
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 20 19:27:57 2017 -0500
+
+    retrieve all id of all markets from NYC, will fetch individual data for all market ids soon
+
+[33mcommit b957f384b7ea2f37eac2e0d3e6f6c65ca4763c00[m
+Merge: db567e1 f6b3cae
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Fri Jan 20 19:25:17 2017 -0500
+
+    Merge pull request #7 from rekhviasN/dev
+    
+    Dev
+
+[33mcommit f6b3cae2b9422d1898ae9991b44bcd295c360d47[m
+Merge: 503bb83 d43820f
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Fri Jan 20 19:23:39 2017 -0500
+
+    merged package.json
+
+[33mcommit 503bb838d68b185914a7fff089720fc99e53f4ef[m
+Merge: db567e1 fe71a6e
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Fri Jan 20 19:20:58 2017 -0500
+
+    fixed server.info merge conf
+
+[33mcommit d43820fc6a6757d0c2f172cfa10b8d15d391d95e[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Fri Jan 20 19:04:46 2017 -0500
+
+    tentative changes
+
+[33mcommit ef2f765f79dcd04c40a6a6cc586dfe0360dadc5a[m
+Author: xutopia <xuology@gmail.com>
+Date:   Fri Jan 20 11:31:07 2017 -0500
+
+    downloaded all farmer's market data, need to grab each market data
+
+[33mcommit db567e10506f5045c346ef49e04e7dbe6c68bb45[m
+Merge: 70e0909 8eebaf3
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 21:07:00 2017 -0500
+
+    Merge pull request #6 from rekhviasN/dev
+    
+    created tentative farmModel schema, and a route and controller
+
+[33mcommit 70e0909dd25a1724aee6c579108e25c6525e9f27[m
+Merge: e8c24e8 e272054
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 21:02:44 2017 -0500
+
+    Merge pull request #5 from Bavarian05/dev
+    
+    Front-End Skeleton
+
+[33mcommit 8eebaf368b1b0b20998766f09c1e80bb98d92034[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 20:51:08 2017 -0500
+
+    created tentative farmModel schema, and a route and controllerto return all markets
+
+[33mcommit e272054943087fb0797689e3b1806f3cbdbcf6ca[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Thu Jan 19 20:14:18 2017 -0500
+
+    Add skeleton for index.html page
+
+[33mcommit 84d5665ecc7c20eccef2d7dc71ca0897f63dbc0b[m
+Author: xutopia <xuology@gmail.com>
+Date:   Thu Jan 19 19:47:38 2017 -0500
+
+    have script that makes GET request for each zip code in NYC and saves each response data in a separate json file
+
+[33mcommit e8c24e8f72f4480a872ec836b26d184423142124[m
+Merge: 6d5b7cf 90739bc
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 19:29:59 2017 -0500
+
+    Merge pull request #3 from rekhviasN/dev
+    
+    Dev
+
+[33mcommit 518b9ba66893ce7767cbe44bf901714650fe4489[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Thu Jan 19 19:25:55 2017 -0500
+
+    Remove test files, add angular, and basic client files
+
+[33mcommit 90739bc859b977c1d0bece91b77fbd40a348b153[m
+Merge: 285890d ea3360d
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 19:23:43 2017 -0500
+
+    fixed merge conflict
+
+[33mcommit 285890d27b91705dcfc53cf46d659f5bbcc6cf3d[m
+Merge: 661a03f 9b01d76
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 19:22:31 2017 -0500
+
+    added dbinfo
+
+[33mcommit 661a03fa158ea2acc809645e3449789790cf65f8[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 19:12:50 2017 -0500
+
+    added random text to test git
+
+[33mcommit 9b01d76b3333b7c0351bfb5c775604bc9554f0af[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 19:15:52 2017 -0500
+
+    changed to test git
+
+[33mcommit ea3360dd60e70e06cebe4417156fe334c8fd13af[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 19:12:50 2017 -0500
+
+    added random text to test git
+
+[33mcommit 4a4a032426803b6e4deaf3b693c7bcbdc875c3ad[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 19:10:55 2017 -0500
+
+    added database connection link info
+
+[33mcommit fe71a6e04ade68f233ca962e2e27c3450d9fcff3[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 19:03:39 2017 -0500
+
+    added database connection file
+
+[33mcommit 6d5b7cf7ba309e813b332886ed0a7ea2e9c1acfa[m
+Merge: 9ef8377 11b077f
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Thu Jan 19 18:50:40 2017 -0500
+
+    Merge pull request #2 from xutopia/dev
+    
+    random mock data to be used in front end
+
+[33mcommit e4c3adc5140090c850b05c0889a8310e60816a90[m
+Author: Rishi Shah <shah.rishi05@gmail.com>
+Date:   Wed Jan 18 17:11:05 2017 -0500
+
+    Create test file for pull request
+
+[33mcommit 11b077f0ce81cab75f404caa58d74244158b03b2[m
+Author: xutopia <xuology@gmail.com>
+Date:   Thu Jan 19 15:49:21 2017 -0500
+
+    random mock data to be used in front end
+
+[33mcommit 9ef83778ebb9618e39cca31fcc4ae31849ad9011[m
+Merge: 187da58 55cb535
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Wed Jan 18 17:38:23 2017 -0500
+
+    Merge pull request #1 from xutopia/dev
+    
+    Dev
+
+[33mcommit 55cb53515f9f671f8dd32c8c1c253ab04933f391[m
+Author: xutopia <xuology@gmail.com>
+Date:   Wed Jan 18 17:08:49 2017 -0500
+
+    here is a new file that was added by a lowly developer
+
+[33mcommit baf4126dd4dc0e7224a9921dd1da629029618b88[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Wed Jan 18 16:21:09 2017 -0500
+
+    initialize app with bower and npm
+
+[33mcommit 0e48860626baff6bc6aa46c968b73df787281cf6[m
+Author: Nino <rekhviasnino@gmail.com>
+Date:   Wed Jan 18 16:21:09 2017 -0500
+
+    initialize app with bower and npm
+
+[33mcommit 187da58543278f33a6b240c755385d70bee5041d[m
+Author: rekhviasN <rekhviasnino@gmail.com>
+Date:   Wed Jan 18 14:57:00 2017 -0500
+
+    Initial commit

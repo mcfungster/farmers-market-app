@@ -4,7 +4,7 @@ var GeoJSON = require('mongoose-geojson-schema');
 var mongoURI = require('./../../API_KEYS.js').mongoURI;
 mongoose.connect(mongoURI);
 
-var market = new mongoose.Schema({
+var allMarkets = new mongoose.Schema({
   Address: String,
   GoogleLink: String,
   Products: String,
@@ -15,7 +15,7 @@ var market = new mongoose.Schema({
 
 
         
-const Market = mongoose.model('market', market);
+const Market = mongoose.model('allMarkets', allMarkets);
 
 function convert(markets){
  

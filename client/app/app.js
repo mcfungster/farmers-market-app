@@ -1,29 +1,55 @@
-angular.module('farmer', ['xeditable','farmer.search', 'farmer.services', 'farmer.adminServices', 'farmer.map', 'farmer.login', 'farmer.adminUpdate', 'ngMaterial', 'ngRoute', 'ngAnimate'])
+angular.module('farmer', [
+  'xeditable',                  'farmer.search', 'farmer.services',
+  'farmer.adminServices',       'farmer.map',    'farmer.login',
+  'farmer.adminUpdate',         'farmer.user',   'farmer.userServices',
+  'farmer.accordianController', 'ngMaterial',    'ngRoute',
+  'ngAnimate'
+])
 .config(($routeProvider, $httpProvider) => {
   $routeProvider
-    .when('/search', {
+    .when('/', {
       templateUrl: 'app/views/search.html',
       controller: 'SearchController'
     })
     .when('/map', {
       templateUrl: 'app/views/map.html',
-      controller: 'MapController'
+      controller: 'MapController',
     })
     .when('/adminUpdate', {
       templateUrl: 'app/views/adminSubmit.html',
-      controller: 'AdminController'
+      controller: 'AdminController',
+      authenticate: true
     })
     .when('/adminLogin', {
       templateUrl: 'app/views/adminLogin.html',
       controller: 'LoginController',
+    })
+     /*********************************************/
+    /** new routes with addition of passportjs  **/
+    .when('/login', {
+      templateUrl: 'app/views/userLogin.html',
+      controller: 'UserController',
+    })
+    .when('/signup', {
+      templateUrl: 'app/views/userSignup.html',
+      controller: 'UserController',
+    })
+    .when('/logout', {
+      controller: 'UserController',
+    })
+    .when('/profile', {
+      templateUrl: 'app/views/userProfile.html',
+      controller: 'UserController',
       authenticate: true
     })
+    // end of new routes
+
     .otherwise({
-      redirectTo: '/search'
+      redirectTo: '/'
     });
 
     // an $httpProvider interceptor is added to all request calls so that all outgoing $http requests have the token attached
-    $httpProvider.interceptors.push('AttachTokens');
+    // $httpProvider.interceptors.push('AttachTokens');
 })
 .factory('AttachTokens', function($window) {
   var attach = {
@@ -38,27 +64,20 @@ angular.module('farmer', ['xeditable','farmer.search', 'farmer.services', 'farme
   };
   return attach;
 })
-.run(function($rootScope, $location, Auth) {
+.run(function($rootScope, $location, UserAuth) {
   // listen for when user wants to make a route change
   // make sure to send the token to the server with the route change request
   // redirect to admin login for the route(s) that require an 'authenticate'
   $rootScope.$on('$routeChangeStart', function(evt, next, current) {
-    if(next.$$route && next.$$route.authenticate && !Auth.isAuth()) {
-      $location.path('/adminLogin');
-    }
+    console.log('route change triggered');
+    UserAuth.isAuth().then(authorized => {
+      console.log('front-end auth', authorized);
+      if (next.$$route && next.$$route.authenticate && !authorized.data) {
+        $location.path('/login');
+      } else {
+        $rootScope.user = authorized.data;
+        console.log('rootScope user: ', $rootScope.user);
+      }
+    })
   });
 });
-// .run(function ($rootScope, $location, Auth) {
-//   // here inside the run phase of angular, our services and controllers
-//   // have just been registered and our app is ready
-//   // however, we want to make sure the user is authorized
-//   // we listen for when angular is trying to change routes
-//   // when it does change routes, we then look for the token in localstorage
-//   // and send that token to the server to see if it is a real user or hasn't expired
-//   // if it's not valid, we then redirect back to signin/signup
-//   $rootScope.$on('$routeChangeStart', function (evt, next, current) {
-//     if (next.$$route && next.$$route.authenticate && !Auth.isAuth()) {
-//       $location.path('/signin');
-//     }
-//   });
-// });
